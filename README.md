@@ -1,7 +1,7 @@
 # Waffles - Strawberries and Cream
 
 From the modder who brought you milkshakes that caused mass lactose intolerance-induced diarrhoea across the Rim, I present to you:
-[b]Strawberries and Cream Waffles[/b]!
+Strawberries and Cream Waffles!
 
 This mod adds a new craftable recreation/luxury food (like chocolate).
 
