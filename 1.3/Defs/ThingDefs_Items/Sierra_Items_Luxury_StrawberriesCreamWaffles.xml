@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Sierra_StrawberriesCreamWaffles</defName>
+    <label>strawberries and cream waffles</label>
+    <description>A sweet and surprisingly nutritious treat. Easy to prepare and fulfills the need for recreation, waffles deteriorate relatively slowly and can be packed for short caravan trips.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sierra_StrawberriesCreamWaffles</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <costList>
+      <RawRice>3</RawRice>
+      <Milk>2</Milk>
+      <RawBerries>1</RawBerries>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>12</MarketValue> <!-- Total Value = Raw Ingredients Used x1.5 Rounded Down-->
+      <Mass>0.25</Mass> <!-- Rough Estimate based on ingredients -->
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate> <!-- Reference: Simple Meal -->
+      <Nutrition>0.45</Nutrition> <!-- Total Nutrition = Raw Nutrition Used x1.5-->
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>Sierra_Waffles</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+			<tasteThought>Sierra_Thought_AteStrawberriesCreamWaffles</tasteThought>
+      <foodType>Processed</foodType>
+      <joy>0.4</joy>
+      <joyKind>Sierra_Eating_Waffles</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart> <!-- Spoils 25% quicker than meals -->
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

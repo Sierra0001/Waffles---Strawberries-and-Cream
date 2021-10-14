@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Sierra_MakeStrawberriesCreamWafflesSmall</defName>
+    <label>make strawberries and cream waffles</label>
+    <description>Make strawberries and cream waffles, a tasty and healthy treat.</description>
+    <jobString>Making strawberries and cream waffles.</jobString>
+    <workAmount>300</workAmount> <!-- Reference: Simple Meal -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_StrawberriesCreamWaffles>1</Sierra_StrawberriesCreamWaffles>
+    </products>
+    <skillRequirements>
+        <Cooking>4</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Sierra_MakeStrawberriesCreamWafflesMedium</defName>
+    <label>make strawberries and cream waffles x4</label>
+    <description>Make strawberries and cream waffles, a delicious and healthy treat.\n\nThis is a batch recipe that utilise a more efficient production process.</description>
+    <jobString>Making strawberries and cream waffles.</jobString>
+    <workAmount>1125</workAmount> <!-- Batch: x3.75 -->
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+  	<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+		</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+		</ingredients>
+    <products>
+      <Sierra_StrawberriesCreamWaffles>4</Sierra_StrawberriesCreamWaffles>
+    </products>
+    <skillRequirements>
+        <Cooking>5</Cooking> <!-- Cooking for people is harder than cooking for just yourself -->
+    </skillRequirements>
+  </RecipeDef>
+
+  </Defs>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Waffles - Strawberries and Cream</name>
+	<author>Sierra</author>
+	<packageId>Sierra.Waffles.StrawberriesCream</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+	<description>
+[h1]Mod Version: v1.0[/h1]
+
+
+From the modder who brought you milkshakes that caused mass lactose intolerance-induced diarrhoea across the Rim, I present to you:
+[b]Strawberries and Cream Waffles[/b]!
+
+This mod adds a new craftable recreation/luxury food (like chocolate).
+
+
+[b]Features:[/b]
+[list]
+[*]Strawberries and Cream Waffles (Recreation/Luxury Food)
+[/list]
+Grants Mood Buff (2) for 18 hours after consumption.
+
+
+[b]Recommended Mods:[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2595980371]Milkshakes - Digital Deluxe Edition[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talent[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2622691963]Ancient Crystals[/url]
+[/list]
+
+
+[b]Compatibility:[/b]
+[list]
+[*]Compatible as long as you're not lactose intolerant.
+[*]Persons with strawberry allergy should exercise caution.
+[/list]
+
+
+[b]Balance:[/b]
+A waffle a day keeps the sad away.
+
+
+[url=https://discord.gg/rimworld]Click here to join us on the Community Discord![/url]
+
+
+[h1]Credits:[/h1]
+[list]
+[*]Vali for her deliciously high quality waffle art.
+[*]SirLalaPyon for the smexy preview art.
+[*]Modded Food Textures from: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url]
+[*]Modded Clothing Textures from: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023513450]Vanilla Factions Expanded - Medieval[/url]
+[*]Table Storage from: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566460024]FillTheTables[/url]
+[/list]
+
+
+(CC BY-NC-ND 4.0)
+
+
+[h1]Latest Changes:[/h1]
+[b]v1.0[/b]
+[list]
+[*][RimWorld 1.3] RimWorld 1.3 Ready.
+[*][Release] Initial release.
+[/list]
+	</description>
+</ModMetaData>
